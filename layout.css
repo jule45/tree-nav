@@ -1,0 +1,123 @@
+* {
+    font-family: tahoma;
+    font-weight: lighter;
+}
+
+li {
+    list-style: none;
+
+}
+
+.soundfenster {
+    color: aliceblue;
+    background: #555555;
+    box-sizing: border-box;
+    width: 250px;
+    height: 645px;
+    float: left;
+    padding: 15px;
+}
+
+#baum {
+}
+
+.parameterleiste {
+    text-align: center;
+    background-color: white;
+    width: 700px;
+    height: 120px;
+    margin-left: 260px;
+
+}
+
+.parameter {
+    background-color: beige;
+    width: 120px;
+    height: 60px;
+    float: left;
+    padding: 5px;
+    margin: 20px;
+    text-align: center;
+    -moz-border-radius:100px / 10px;
+    border-radius:100px / 10px;
+}
+.umgebungsfenster {
+    background-color: white;
+    width: 550px;
+    border: 2px  solid rgba(0,0,0,0.5); 
+    border-radius: 1px; 
+} 
+
+.anzeigeliste {
+    color: aliceblue;
+    background: #555555;
+    box-sizing: border-box;
+    width: 250px;
+    height: 645px;
+    padding: 15px;
+    float: right;
+    margin-right: 125px;
+}
+
+.timeline {
+    color: aliceblue;
+    background: #555555;
+    box-sizing: border-box;
+    width: 700px;
+    height: 50px;
+    padding: 20px;
+    position: absolute;
+    bottom: 10px;
+    margin-left: 260px;
+}
+
+
+
+/*----------------------------------------------------------------
+Boxeffect7 from https://www.bypeople.com/css-box-shadow-effects/  */
+
+.effect7
+{
+    position:relative;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.effect7:before, .effect7:after
+{
+    content:"";
+    position:absolute;
+    z-index:-1;
+    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+    top:0;
+    bottom:0;
+    left:10px;
+    right:10px;
+    -moz-border-radius:100px / 10px;
+    border-radius:100px / 10px;
+}
+.effect7:after
+{
+    right:10px;
+    left:auto;
+    -webkit-transform:skew(8deg) rotate(3deg);
+       -moz-transform:skew(8deg) rotate(3deg);
+        -ms-transform:skew(8deg) rotate(3deg);
+         -o-transform:skew(8deg) rotate(3deg);
+            transform:skew(8deg) rotate(3deg);
+}
+
+/*----------------------------
+applebox  */
+
+.apple{
+    /*background: #f5f5f5; */
+    background: #555555;
+    border: 1px solid #FFF;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow: 2px 4px 6px rgba(0,0,0,.4);
+}
